@@ -1,4 +1,4 @@
-# 🚗 Automatic Number Plate Recognition (ANPR) System
+# 🚗  Number Plate Recognition System
 
 A real-time Automatic Number Plate Recognition system built using **Python** and **OpenCV**. This project utilizes the pre-trained `haarcascade_russian_plate_number.xml` to isolate, track, and extract vehicle license plates from static images or live video streams.
 
