@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Folders where Python installs dependencies
+venv/
+.venv/
+env/
+env.bak/
+venv.bak/
+
+# --- Environment Variables ---
+# Never commit your API keys or secret tokens
+.env
+
+# --- IDE / Editor Settings ---
+# Visual Studio Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+
+# --- OS Files ---
+# macOS system files
+.DS_Store
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# --- Project Specific & Machine Learning ---
+# Ignore large model files to prevent breaking GitHub's 100MB limit
+*.weights
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Ignore data folders, logs, and outputs from model training/testing
+data/
+outputs/
+runs/
+checkpoint/
+logs/
+*.log
+
+# Ignore large testing and raw image datasets
+images/
+test_images/
+
